@@ -1,0 +1,27 @@
+name: dn-bundle-plugin
+version: 1.0.0
+type: plugin
+
+plugins:
+- Hub
+
+plugin:
+  list: [DevelNextBundle]
+  sources:
+  - src
+
+hub:
+  login: broelik@gmail.com
+
+config:
+  ignore:
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /examples/**
+  - /package.hub.yml
+
+devDeps:
+  jphp-core: '*'
+  jphp-compress-ext: '*'
