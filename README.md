@@ -8,7 +8,17 @@ devDeps:
 ...
 plugins:
   - DevelNextBundle
+develnext-bundle:
+  version: 1.0.0
+  name: simple-bundle
+  author: broelik
+  icon: "develnext/bundle/simplebundle/icon32.png"
+  description: "Simple Bundle"
+  group: "other"
+  class: "develnext\\bundle\\simplebundle\\SimpleBundle"
 ```
+After, create **src-bundle** folder in you project directory. This folder contains source files for bundle and can be used to interact with IDE.
+
 Then use this command for create bundle:
 ```
 jppm bundle:build
