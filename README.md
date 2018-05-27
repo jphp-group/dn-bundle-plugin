@@ -6,8 +6,7 @@ Edit you package.php.yml like this:
 devDeps:
   dn-bundle-plugin: '*'
 ...
-plugins:
-  - DevelNextBundle
+
 develnext-bundle:
   version: 1.0.0
   name: simple-bundle
